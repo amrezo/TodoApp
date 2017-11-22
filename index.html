@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://use.fontawesome.com/55b22e1603.js"></script>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400" rel="stylesheet">
+		<title>Todo App</title>
+	</head>
+	<body>
+		<h1>todo</h1>
+		<p>Create your to-do list</p>
+		<form onsubmit="return false;">
+			<input id="todofield" type="text" placeholder="What needs to be done?" autofocus />
+		</form>
+		<ul id="todolist"></ul>
+		<button class="clear" type="button" onclick="clearList()">Clear</button>
+		<script src="script.js"></script>
+	</body>
+</html>
